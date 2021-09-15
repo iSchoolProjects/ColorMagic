@@ -210,3 +210,26 @@ p.store-number::before {
 .bg-blue {
     background: lightblue;
 }
+
+.first {
+    background: url(/images/01.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.box-shadow-light {
+    box-shadow: 6px 4px 4px 1px rgb(0 0 0 / 33%);
+}
