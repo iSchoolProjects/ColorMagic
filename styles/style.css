@@ -1,0 +1,212 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: url(/images/slide-2-bg.png);
+    height: 100vh;
+
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-fluid {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.top-40 {
+    top: 40%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.aic {
+    align-items: center;
+}
+
+.aifs {
+    align-items: flex-start;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.px-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.py-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ps-1 {
+    padding-left: 10px;
+}
+
+.pe-1 {
+    padding-right: 10px;
+}
+
+.ms-1 {
+    margin-left: 10px;
+}
+
+.ms-2 {
+    margin-left: 20px;
+}
+
+.me-1 {
+    margin-right: 10px;
+}
+
+.me-2 {
+    margin-right: 20px;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.m-2 {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+
+.fw-bolder {
+    font-weight: 900;
+}
+
+.fw-thin {
+    font-weight: 300;
+}
+
+p.phone-number::before {
+    content: "\270f";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+p.store-number::before {
+    content: "\270f";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.list-item:hover {
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.subscribe {
+    margin-top: 12rem;
+    background: white;
+    padding: 20px;
+
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.bg-blue {
+    background: lightblue;
+}
