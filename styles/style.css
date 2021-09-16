@@ -46,6 +46,46 @@ header {
     justify-content: space-between;
 }
 
+.jcfe {
+    justify-content: flex-end;
+
+}
+
+/* #text*/
+
+h1 {
+    font-size: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+
+.fw-bolder {
+    font-weight: 900;
+}
+
+.fw-thin {
+    font-weight: 300;
+}
+
 .text-upper {
     text-transform: uppercase;
 }
@@ -58,6 +98,10 @@ header {
     color: white;
 }
 
+.text-red {
+    color: red;
+}
+
 .text-gray {
     color: gray;
 }
@@ -65,6 +109,8 @@ header {
 .text-blue {
     color: blue;
 }
+
+/* #align */
 
 .aic {
     align-items: center;
@@ -74,20 +120,43 @@ header {
     align-items: flex-start;
 }
 
-.w-auto {
-    width: auto;
+.aie {
+    align-items: flex-end;
 }
 
+
+/* #width */
 .h-auto {
     height: auto;
+}
+
+.w-auto {
+    width: auto;
 }
 
 .w-100 {
     width: 100%;
 }
 
+
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
 .w-50 {
     width: 50%;
+}
+
+.w-70 {
+    width: 70%;
 }
 
 .w-75 {
@@ -101,6 +170,8 @@ header {
 .h-50 {
     height: 50%;
 }
+
+/* #padding */
 
 .p-1 {
     padding: 10px;
@@ -140,8 +211,42 @@ header {
     margin-left: 10px;
 }
 
+/* #margin */
+
 .ms-2 {
     margin-left: 20px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-4 {
+    margin-top: 30px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 30px;
 }
 
 .me-1 {
@@ -158,27 +263,6 @@ header {
 
 .m-2 {
     margin: 20px;
-}
-
-h2 {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.fs-2 {
-    font-size: 2rem;
-}
-
-.fw-bold {
-    font-weight: 600;
-}
-
-.fw-bolder {
-    font-weight: 900;
-}
-
-.fw-thin {
-    font-weight: 300;
 }
 
 p.phone-number::before {
@@ -211,10 +295,6 @@ p.store-number::before {
 
 }
 
-.w-70 {
-    width: 70%;
-}
-
 .bg-blue {
     background: lightblue;
 }
@@ -226,17 +306,6 @@ p.store-number::before {
     background-repeat: no-repeat;
 }
 
-h1 {
-    font-size: 4rem;
-}
-
-.text-center {
-    text-align: center;
-}
-
-h3 {
-    font-size: 1.8rem;
-}
 
 .box-shadow-light {
     box-shadow: 6px 4px 4px 1px rgb(0 0 0 / 33%);
@@ -244,10 +313,6 @@ h3 {
 
 .wrap {
     flex-wrap: wrap;
-}
-
-.w-20 {
-    width: 20%;
 }
 
 .col-2 {
@@ -295,10 +360,23 @@ h3 {
     left: 10%;
 }
 
-.aie {
-    align-items: flex-end;
+.right-10 {
+    right: 10%;
 }
 
-.w-30 {
-    width: 30%;
+.bottom--10 {
+    bottom: -10%;
+}
+
+.bottom--20 {
+    bottom: -20%;
+}
+
+.bg-car {
+    background: url(/images/1\ \(1\).png);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
 }
