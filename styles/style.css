@@ -246,30 +246,6 @@ h3 {
     width: 20%;
 }
 
-
-/* .col-2 img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.overlay {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: 20%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-}
-
-.overlay:hover {
-    opacity: 0.5; }*/
-
-
 .image {
     position: relative;
 }
@@ -294,4 +270,11 @@ h3 {
 
 .image:hover:after {
     opacity: 0.7;
+}
+
+.secound {
+    background: url(/images/02.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
 }
