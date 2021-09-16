@@ -4,6 +4,7 @@ body {
 
 header {
     background: url(../images/slide-2-bg.png);
+    width: 100%;
     height: 100vh;
 
 }
@@ -34,6 +35,10 @@ header {
     display: flex;
 }
 
+.inline-flex {
+    display: inline-flex;
+}
+
 .flex-column {
     flex-direction: column;
 }
@@ -59,6 +64,10 @@ h1 {
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: end;
 }
 
 h3 {
@@ -90,6 +99,7 @@ h2 {
     text-transform: uppercase;
 }
 
+
 .no-decor {
     text-decoration: none;
 }
@@ -102,8 +112,20 @@ h2 {
     color: #F62D2D;
 }
 
+.text-orange {
+    color: #EF6325;
+}
+
+.text-purple {
+    color: #7111C5;
+}
+
 .text-green {
     color: #ACCF18;
+}
+
+.text-green-2 {
+    color: #00CE30;
 }
 
 .text-gray {
@@ -159,6 +181,10 @@ h2 {
     width: 50%;
 }
 
+.w-60 {
+    width: 60%;
+}
+
 .w-70 {
     width: 70%;
 }
@@ -212,8 +238,16 @@ h2 {
     padding-left: 10px;
 }
 
+.ps-2 {
+    padding-left: 20px;
+}
+
 .pe-1 {
     padding-right: 10px;
+}
+
+.pe-2 {
+    padding-right: 20px;
 }
 
 .ms-1 {
@@ -258,6 +292,10 @@ h2 {
     margin-bottom: 30px;
 }
 
+.mb-4 {
+    margin-bottom: 40px;
+}
+
 .me-1 {
     margin-right: 10px;
 }
@@ -297,7 +335,7 @@ h2 {
     transition: all 0.3s;
 }
 
-.subscribe {
+.m-t-12-bg-white {
     margin-top: 12rem;
     background: #FFFFFF;
 }
@@ -328,6 +366,11 @@ h2 {
 
 .col-3 {
     width: 25%;
+    margin: 0px !important;
+}
+
+.col-8 {
+    width: 100%;
 }
 
 .image {
@@ -379,8 +422,8 @@ h2 {
     bottom: -10%;
 }
 
-.bottom--20 {
-    bottom: -20%;
+.bottom--30 {
+    bottom: -30%;
 }
 
 .bg-car {
@@ -399,14 +442,50 @@ h2 {
 }
 
 .text {
-    padding-top: 40px;
+    padding-top: 75px;
     padding-left: 20px;
-    padding-right: 40px;
-    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-bottom: 0px;
 }
 
-.col-3 {
-    margin: 0px !important;
+
+
+.bg-wrap {
+    background: url(/images/Screenshot_1.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.fas.fa-play-circle {
+    font-size: 5rem;
+
+}
+
+.sixth {
+    background: url(../images/06.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.seventh {
+    background: url(../images/07.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-section {
+    background: url(/images/Untitleddesign\ \(2\).png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
 }
 
 
