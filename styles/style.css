@@ -331,11 +331,12 @@ h2 {
     padding-right: 20px;
 }
 
+
+/* #margin */
+
 .ms-1 {
     margin-left: 10px;
 }
-
-/* #margin */
 
 .ms-2 {
     margin-left: 20px;
@@ -354,7 +355,22 @@ h2 {
 }
 
 .mt-4 {
-    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.mx-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.my-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .mt-5 {
@@ -383,6 +399,10 @@ h2 {
 
 .me-2 {
     margin-right: 20px;
+}
+
+.m-0 {
+    margin: 0% !important;
 }
 
 .m-1 {
@@ -511,7 +531,7 @@ h2 {
 
 .col-3 {
     width: 25%;
-    margin: 0px !important;
+
 }
 
 .col-8 {
