@@ -13,11 +13,12 @@ header {
 .container {
     margin-left: 10%;
     margin-right: 10%;
+    width: 80%;
 }
 
 .container-fluid {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: auto;
+    width: 70%;
 }
 
 .absolute {
@@ -75,6 +76,10 @@ h1 {
     text-align: end;
 }
 
+.text-left {
+    text-align: start;
+}
+
 h3 {
     font-size: 1.8rem;
 }
@@ -84,9 +89,14 @@ h2 {
     font-weight: 700;
 }
 
+.fs-normal {
+    font-size: 1rem;
+}
+
 .fs-2 {
     font-size: 2rem;
 }
+
 
 .fw-bold {
     font-weight: 600;
@@ -166,8 +176,20 @@ h2 {
     color: #CCCCCC;
 }
 
+.text-gray-2 {
+    color: #5D5D5D;
+}
+
 .text-blue {
     color: #21B1D6;
+}
+
+.text-dark-blue {
+    color: #322DAF;
+}
+
+.text-black {
+    color: #000000;
 }
 
 .bg-green {
@@ -259,6 +281,10 @@ h2 {
 
 .p-25 {
     padding: 25px;
+}
+
+.pt-1 {
+    padding-top: 10px;
 }
 
 .px-1 {
@@ -468,13 +494,16 @@ h2 {
     border: 1px solid black;
 }
 
+.border-left {
+
+    border-left: 1px solid gray;
+}
+
 .wrap {
     flex-wrap: wrap;
 }
 
-.col-12 {
-    width: 100%;
-}
+
 
 .col-2 {
     width: 20%;
@@ -605,6 +634,9 @@ h2 {
     background-color: rgba(0, 00, 00, 0.70);
 }
 
+footer {
+    background-color: black;
+}
 
 
 
