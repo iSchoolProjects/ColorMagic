@@ -497,7 +497,7 @@ h2 {
 }
 
 .m-t-7-bg-white {
-    top: -60px;
+    top: -80px;
     background: #FFFFFF;
 }
 
@@ -708,6 +708,51 @@ footer {
 
 }
 
+@media(width:320px) {
+    .biggest {
+        font-size: 1.8rem !important;
+    }
+
+    header {
+        height: 165vh !important;
+    }
+
+    .wi-80 {
+        width: 80% !important;
+    }
+}
+
+
+@media(width:375px) {
+
+    .vh-100 {
+        height: 100vh !important;
+    }
+
+    header {
+        height: 122vh !important;
+    }
+
+    .mobile-litle {
+        height: 190vh !important;
+    }
+}
+
+
+@media(width:414px) {
+
+    .top-mobile-30 {
+        top: 30% !important;
+    }
+
+    .wi-80 {
+        width: 80% !important;
+    }
+
+    .mobile-litle {
+        height: 170vh !important;
+    }
+}
 
 
 
@@ -718,7 +763,7 @@ footer {
 @media(max-width:768px) {
 
     .mobile-h-x2 {
-        height: 150vh !important;
+        height: 155vh;
     }
 
     .ipad-pro-fs-80 {
@@ -877,7 +922,7 @@ footer {
     }
 
     .top-mobile-30 {
-        top: 30%;
+        top: 35%;
     }
 
     .top-mobile-10 {
@@ -895,11 +940,14 @@ footer {
 
 @media(width:768px) {
 
-    .container {
-        margin: auto;
-        width: 80% !important;
+
+    .ipad-flow-row {
+        flex-flow: row;
     }
 
+    .ipad-row {
+        flex-direction: row;
+    }
 
     header {
         height: 70vh !important;
@@ -966,7 +1014,7 @@ footer {
     }
 
     .ipad-h-50 {
-        height: 50vh !important;
+        height: 55vh !important;
     }
 
     .ipad-w-80 {
