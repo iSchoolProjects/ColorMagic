@@ -708,6 +708,10 @@ footer {
 
 }
 
+.owerflow-hidden {
+    overflow: hidden !important;
+}
+
 @media(width:320px) {
     .biggest {
         font-size: 1.8rem !important;
@@ -960,6 +964,8 @@ footer {
 
 
 @media(width:1024px) {
+
+
     .ipad-tac {
         text-align: center;
     }
